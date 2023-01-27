@@ -1,0 +1,18 @@
+#将数字类型转换成字符串(所有的数字可以转字符串)
+num_str= str(11)
+print(num_str, type(num_str))
+num_str= str(11.31)
+print(num_str, type(num_str))
+#将字符串转换成数字(字符串中全是数字才可以转)
+num=int("11")
+print(num,type(num))
+# 整数转浮点数
+float_num= float(11)
+print(float_num)
+# 浮点数转整数(只保留整数部分，会丢失精度，丢失小数部分)
+int_num= int(11.93)
+print(int_num)
+
+int()
+float()
+str()
